@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Esté video está hospedado em meu próprio servidor</p>
+    <video width="560" height="315" poster="imagem/pato-do-mato_344282711.jpg" controls>
+<source src="midia/meu-video1.mp4" type="video/mp4">
+<source src="midia/meu-video2.mp4" type="video/mp4">
+<source src="midia/meu-video3.webm" type="video/webm">
+<p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+    </video>
+
+    <h1>Inserindo vídeos hospedados em sites (youtube/vimeo)</h1>
+    <h2>Youtube</h2>
+    <p>Procuramos algum video do youtube e colocamos a opção de compartilhar, e logo após selecionamos a opção incorporar e copiar e colar o codigo que for gerado</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rNHgxUCXgnU?si=yqMxkwWvF8TxJPyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2>Videos Vimeo</h2>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/489207369?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Mobil Motos Perú | Lobitos"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>

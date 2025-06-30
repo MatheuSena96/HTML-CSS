@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: green;
+}
+
+h1#principal {
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+.basico{
+    color: gold;
+    text-align: center;
+}
+.intermediario{
+    color: blueviolet;
+    text-align: center;
+}
+.avançado{
+    color: chocolate;
+    text-align: center;
+}
+.titulo{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: 2em;
+    font-weight:bolder ;
+}

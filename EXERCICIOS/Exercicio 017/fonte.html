@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @font-face {
+    font-family:'Pulp' ;
+    src: url('fonts/Advertising Pulp.ttf') format('truetype'); 
+        }
+        body{
+            font-family: Arial serif;
+            font-size: 1em; /* 16 pixel equivale a 1em....2em é o dobro, 32px*/
+        }
+        h1{
+            font: italic lighter 3em UnifrakturMaguntia,sans-serif;
+            text-decoration: underline;
+        }
+
+        h2{
+            font: normal normal 2em UnifrakturMaguntia, Work Sans, Arial;
+        }
+
+        p{
+            font-family: Pulp, Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+font-weight: normal;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id provident labore dolorem voluptatem? Commodi maxime officiis aut fugiat porro doloribus laborum officia, unde ab? Itaque, sed nobis! Non, unde modi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint dolor incidunt aliquid labore nemo. Autem beatae quia, eius laboriosam neque velit nobis magni delectus, nihil maxime ad quod tempore natus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores ut odio tempore repellendus cupiditate enim dolore ipsa. Officia nihil praesentium quos nesciunt, possimus cumque perspiciatis fuga dolorum beatae ullam excepturi!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ducimus dolorem asperiores cupiditate blanditiis eius neque iste sequi. Libero mollitia consequuntur voluptatibus vel nulla, qui soluta nihil dolorem sunt nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed recusandae, dicta voluptatibus nobis aspernatur commodi expedita velit quasi, ipsum voluptate enim, molestias et laudantium iste eveniet necessitatibus doloribus. Et, vero?</p>
+</body>
+</html>
